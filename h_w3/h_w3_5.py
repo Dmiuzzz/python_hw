@@ -13,7 +13,7 @@ def func5(*args):
                 break
             y += i
 
-        b += sum(list(map(int, y.split())))
+        b += sum(map(int, y.split()))
         y = ''
         if a == 0:
             print(b)
